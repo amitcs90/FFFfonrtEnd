@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <script src="startQuiz.js"></script>
+  <link rel="stylesheet" type="text/css" href="startQuiz.css">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+</style>
+<body onLoad="render()">
+
+  <div class="container" id="main">
+
+    <p id="demo"></p>
+    <b><div id="ques"></div></b>
+
+    <form>
+      <input type="radio" name="option" id="rd1"> <span id="opt1"></span> </input><br>
+      <input type="radio" name="option" id="rd2"> <span id="opt2"></span> </input><br>
+      <input type="radio" name="option" id="rd3"> <span id="opt3"></span> </input><br>
+      <input type="radio" name="option" id="rd4"> <span id="opt4"></span> </input><br>
+    </form> 
+  </div>
+<div id="snackbar">Some text some message..</div>
+</body>
+</html>
